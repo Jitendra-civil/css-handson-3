@@ -1,0 +1,165 @@
+body {
+    margin:0px;
+    padding:0px;
+    background-color: gray;
+}
+#firstdev{
+   display: flex;
+    justify-content: space-around;
+}
+#firstbox{
+  font-size: 25px;
+    border:10px solid tomato;
+  margin-top: 10px;
+  margin-left:50px;
+    border-radius: 20px;
+    width:500px;
+    height: 170px;
+   font-weight: bold;
+   font-style: italic;
+    background-color: white;
+    text-align: center;
+    box-shadow: 10px 10px purple;
+   text-shadow: 2px 2px 2px purple;
+}
+#background{
+  border: 10px solid darkgreen;
+  padding:5px;
+ 
+}
+#container1{
+  height:400px ;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 50px;
+}
+#secondbox{
+  float:left;
+  border:10px solid tomato;
+  border-radius: 20px;
+  margin-top:5px;
+  width:300px;
+  height: 250px;
+ font-weight: bold;
+ background-color: white;
+  text-align: center;
+  box-shadow: 10px 10px purple;
+ text-shadow: 2px 2px 2px purple;
+font-size:27px ;
+}
+#thirdbox{
+   border:10px solid tomato;
+  border-radius: 20px;
+ width:300px;
+  height: 250px;
+  background-color: white;
+  box-shadow: 10px 10px purple;
+  float:right;
+}
+#imgveg {
+  margin: 40px 40px;
+  height: 170px;
+  width: 220px;
+  border: 1px solid rgb(3, 3, 59);
+  
+
+}
+#container2{
+  
+  height:450px ;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 50px;
+}
+#fourthbox{
+  float:left;
+  border:10px solid tomato;
+  border-radius: 20px;
+  margin-top:5px;
+  border-radius:20px;
+  width:300px;
+  height: 250px;
+ font-weight: bold;
+ background-color: white;
+
+  box-shadow: 10px 10px purple;
+ text-shadow: 2px 2px 2px purple;
+font-size:24px ;
+}
+#fifthbox{
+  float:right;
+  border:10px solid tomato;
+  border-radius: 20px;
+  margin-top:5px;
+  border-radius:20px;
+  width:300px;
+  height: 250px;
+ font-weight: bold;
+ background-color: white;
+  text-align: center;
+  box-shadow: 10px 10px purple;
+ text-shadow: 2px 2px 2px purple;
+font-size:17px ;
+}
+#ratebox{
+  width: 120px;
+}
+#submit{
+  border:0px solid black;
+  color:black;
+  font-weight: bold;
+  background-color: red;
+  border-radius:10px;
+  box-shadow: 2px 2px 2px black;
+}
+#submit:hover{
+  color:white;
+  background-color: rgb(224, 23, 241);
+}
+#container3{
+  border:10px solid purple;
+  width:51%;
+  margin:auto;
+  margin-top: 25px;
+  margin-bottom:50px;
+  background-color:green;
+}
+#container4{
+  display:flex;
+}
+.down-box{
+  border:5px solid darkgreen;
+  background-color: rgb(238, 238, 143);
+  width:51%;
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+}
+#big-box{
+  width:101%;
+  border:5px solid darkgreen;
+  border-right: 1px;
+  background-color:  rgb(238, 238, 143);
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+  margin-bottom: 7px;
+}
+#fixedbox{
+  text-align:center;
+  width:33%;
+  margin:auto;
+background-color: rgb(31, 226, 31);
+border:10px solid tomato;
+font-style: italic;
+padding-right: 20px;
+padding-left: 30px;
+border-radius: 25px;
+display: flex;
+justify-content: space-between;
+position: fixed;
+bottom:100px;
+left: 400px;
+color:purple;
+box-shadow: 10px 10px purple;
+}
